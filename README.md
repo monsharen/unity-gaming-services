@@ -9,7 +9,9 @@ The following Unity gaming services are currently implemented:
 
 The game also features some basic game mechanics:
 - Fuel consumption
-- Buying/selling star dust
+- Buying/selling space dust
+
+The goal of the game is to make a profit by selling space dust on far away planets and their trading hubs.
 
 # Scenes
 The project consists of the following three scenes: 
@@ -17,14 +19,16 @@ The project consists of the following three scenes:
 - World Map scene (Analytics)
 - Trading Hub scene (Lobby)
 
+The game will automatically transition between the scenes as you navigate the game. 
+
 ## Start Scene (Authentication)
-This scene implements Unity Authentication. This is a great place to add authentication related UI in case we later wish to extend the project with custom authentication flows.
+This scene implements Unity Authentication. This is a great place to add authentication related UI in case we later wish to extend the project with custom authentication flows. In its current implementation it uses anonymous authentication. It will automatically transition to the World Map when the users is authenticated.
 
 ## World Map Scene (Analytics)
-Travel to nearby planets. This scene implements Analytics to help us identify which planets players travel to.
+Travel to nearby planets and visit the trading hubs. The distance you can travel is limited by the amount of fuel you have left. This scene implements Analytics to help us identify which planets players travel to. The game will transition to the Trading hub scene when the space ship reaches a planet.
 
 ## Trading Hub Scene (Lobby)
-This scene uses Lobby to add a social aspect to the game and provide a sense of a living universe.
+This scene uses Lobby to add a social aspect to the game and provide a sense of a living universe. The player can buy/sell space dust and refuel their ship.
 
 # Extending the demo
 
