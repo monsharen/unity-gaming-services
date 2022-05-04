@@ -38,7 +38,7 @@ This demo can easily be extended. Here are some ideas that could be worth explor
 The game is currently poorly balanced. Integrating Economy could help balancing it with the help of Analytics. This could be done by replacing the hardcoded buy/sell values with configurable ones. 
 
 ## Ads
-Add interstitials when players arrive to new planets.
+Add a revenue stream by integrating interstitials that show as players arrive at planets.
 
 ## In-App Purchases
 Integrating in-app purchases could allow the user to purchase additional in-game credits. Perhaps let the user purchase boosters which make their ship fly faster? Or purchase an ad free experience?
