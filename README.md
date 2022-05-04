@@ -19,7 +19,7 @@ The project consists of the following three scenes:
 - World Map scene (Analytics)
 - Trading Hub scene (Lobby)
 
-The game will automatically transition between the scenes as you navigate the game. 
+The game will automatically transition between the scenes as you navigate through the game. 
 
 ## Start Scene (Authentication)
 This scene implements Unity Authentication. This is a great place to add authentication related UI in case we later wish to extend the project with custom authentication flows. In its current implementation it uses anonymous authentication. It will automatically transition to the World Map when the users is authenticated.
