@@ -45,3 +45,7 @@ Integrating in-app purchases could allow the user to purchase additional in-game
 
 ## Relay
 Add the ability to chat and trade with other players on the same planet.
+
+# Built and tested with
+- Unity 2021.1.21f1
+- Macbook Pro (Monterey 12.2.1)
